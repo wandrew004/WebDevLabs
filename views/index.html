@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrew Wang">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Andrew Wang professional website">
+    <title>Andrew Wang</title>
+</head>
+
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Andrew Wang</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+
+                <i class="fa fa-bars" onclick="activeNav()"> </i>
+ 
+              </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img class="classA" src="../static/Andrew_Wang_Headshot_white.jpeg" alt="Andrew Wang profile image" width="350px" >
+        <!-- <p id="intro">Andrew Wang is an Information Systems student at Carnegie Mellon University, with a minor in Software Engineering. His educational studies are complemented by hands-on experience in both software development and programming roles, including a
+            significant contribution as a Programming Instructor at the Uncommon Individual Foundation, where he developed a programming curriculum for high school students. In addition, his role as a Data Analyst Intern at Provco Group helped enhance
+            the current data management processes for the company. Andrew's technical skills extend into personal projects such as an AI-based academic research tool, a meal selection web application for university students, and a Sudoku game and solver,
+            showcasing his ability to apply classroom knowledge to real-world problems. Skilled in languages including Python, Java, JavaScript, SQL, C, and familiar with frameworks like React and Flask, Andrew is positioned to make impactful contributions
+            to technology and is interested in finding solutions to difficult problems.</p> -->
+        <div class="classA">
+            <span id="shortIntro">
+                Andrew Wang is an Information Systems student at Carnegie Mellon University, with a minor in Software Engineering. His educational studies are complemented by hands-on experience in both software development and programming roles,
+            </span>
+            <span id="readMore">read more ...</span>
+            <span id="longIntro"> including a
+                significant contribution as a Programming Instructor at the Uncommon Individual Foundation, where he developed a programming curriculum for high school students. In addition, his role as a Data Analyst Intern at Provco Group helped enhance
+                the current data management processes for the company. Andrew's technical skills extend into personal projects such as an AI-based academic research tool, a meal selection web application for university students, and a Sudoku game and solver,
+                showcasing his ability to apply classroom knowledge to real-world problems. Skilled in languages including Python, Java, JavaScript, SQL, C, and familiar with frameworks like React and Flask, Andrew is positioned to make impactful contributions
+                to technology and is interested in finding solutions to difficult problems.</span>
+            <span id="readLess">read less ...</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Andrew Wang &copy</p>
+    </footer>
+
+</body>
+
+</html>
